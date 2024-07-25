@@ -25,7 +25,7 @@ mintlify dev
 #### Generate docs from Open API
 
 ```
-npx @mintlify/scraping@latest openapi-file https://techygrrrl-kv-server.vercel.app/openapi.json
+npx @mintlify/scraping@latest openapi-file https://techygrrrl-kv-server.vercel.app/openapi.json -o api-reference
 ```
 
 ### Publishing Changes
