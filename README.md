@@ -3,7 +3,6 @@
 - [Development](#development)
   - [Icons](#icons)
   - [Generate docs from Open API](#generate-docs-from-open-api)
-- [Publishing Changes](#publishing-changes)
 
 
 ### Development
@@ -24,7 +23,3 @@ Appears to use the Duotone collection from FontAwesome: https://fontawesome.com/
 ```
 npx @mintlify/scraping@latest openapi-file https://techygrrrl-kv-server.vercel.app/openapi.json -o api-reference
 ```
-
-### Publishing Changes
-
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard.
