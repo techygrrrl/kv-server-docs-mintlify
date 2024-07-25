@@ -36,6 +36,11 @@
     }
   ],
   "navigation": [
+    {
+      "group": "Open API Reference",
+      "icon": "square-terminal",
+      "pages": ["api-reference"]
+    }
   ],
   "footerSocials": {
     "github": "https://github.com/techygrrrl"
