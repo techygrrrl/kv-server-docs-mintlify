@@ -2,14 +2,19 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "kv-server",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/kv-server-mintlify-docs-logo-dark.svg",
+    "light": "/logo/kv-server-mintlify-docs-logo-light.svg"
   },
+  "theme": "venus",
   "favicon": "/favicon.png",
   "colors": {
     "primary": "#EF15BF",
-    "light": "#15EFAE",
-    "dark": "#00cc8f",
+    "light": "#EF15BF",
+    "dark": "#EF15BF",
+    "background": {
+      "dark": "#221B32",
+      "light": "#FFFFFF"
+    },
     "anchors": {
       "from": "#EF15BF",
       "to": "#EBEF15"
@@ -36,6 +41,13 @@
     }
   ],
   "navigation": [
+    {
+      "group": "Get Started",
+      "icon": "face-awesome",
+      "pages": [
+        "introduction"
+      ]
+    },
     {
       "group": "Open API Reference",
       "icon": "square-terminal",
