@@ -28,6 +28,10 @@
   },
   "tabs": [
     {
+      "name": "👋 Welcome!",
+      "url": "/"
+    },
+    {
       "name": "API Reference",
       "url": "api-reference"
     }
@@ -47,11 +51,6 @@
       "pages": [
         "introduction"
       ]
-    },
-    {
-      "group": "Open API Reference",
-      "icon": "square-terminal",
-      "pages": ["api-reference"]
     }
   ],
   "footerSocials": {
